@@ -1,5 +1,5 @@
 {
-    "ecl.launchConfiguration": "not found",
+    "ecl.launchConfiguration": "PlayCluster",
     "ecl.targetCluster": {},
     "cSpell.words": [
         "Eligiable"

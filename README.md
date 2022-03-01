@@ -25,17 +25,17 @@ Currently Connections Homes uses a manual process to match youth with mentor fam
 - If a mentor have  0 weight  on a field that mentor is eliminated. For example: if mentor has a 0 on "Gender_Male", then this mentor is no longer an eligible candidate
 - Youth and mentors should be within "Distance" miles provided by user
 - If youth has None Available (N/A) values on all fields under a category, then result should be marked as "Human Review"
-- Spouse values should be treated the same as primary mentor 
-- For fields that contain no values such as "DayOff", if youth and mentor have exact match, it gets one score 
+- Spouse values should be treated the same as the primary mentor 
+- For fields that contain none-numeric values such as "DayOff", if youth and mentor have exact match, it gets one score 
 - The matching result should contain all eligible mentors, sorted by Matching Score, the higher the score the better match they are 
 - For having more test options please ignore "Status" on mentors dataset
 - Keep in mind that some fields in youth and mentors are for information only. 
-- Fields with non-numeric values such as "SadnessResponse_spouse" no entry doesn't need to be marked as human review.
 
 ### Notes
-- Since lats and longs are based on cities, you might get some distance = 0, which means mentor and youth are both in the same town
-- To make sure you get least information, try to use ERROR to throw a massage if Distance, Lat and Long aren't provided. 
-
+- Since lats and longs are based on cities, you might get some distance = 0, which means mentor and youth are both in the same city
+- To make sure you get the least information, try to use ERROR to throw a massage if <i> Distance, Lat and Long </i>aren't provided
+- Make sure your query name is unique so your won't overwrite other queries. Try using a unique name like adding your initial. 
+- In ECL Watchpage check the Workunit ID (WUID) number to make sure this is your code in case of having the same query name with another teams.  
 
 </br>
 
@@ -45,7 +45,10 @@ Currently Connections Homes uses a manual process to match youth with mentor fam
 
 __Example__
 
-Let's say the youth and a mentor are within 20 miles of each other. 
+Let's say the and these mentors are within 20 miles of each other. 
+
+</br>
+</br>
 
 <i>Youth Sample Info</i>
 
@@ -64,15 +67,15 @@ CriminalHistory_CurrentProbation| Supports_Parenting |  Children_Welfare1
 ---|---|--
 CurrentProbation| 4 | 2 
 
+</br>
+</br>
+
 
 Sample Calculation: 
 
-CriminalHistory = 1
+</br>
 
-SupportNeeds = 4
+Mentor| CriminalHistory| SupportNeeds |  Children | Total_Score |HumanReview 
+---|---|---|---|---|---
+M1 |1| 4| 0 | 5| Children
 
-Children = 0
-
-Total_Score = 5
-
-HumanFlag = Children

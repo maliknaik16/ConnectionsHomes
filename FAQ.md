@@ -1,12 +1,12 @@
 # Frequently Asked Questions
 
 <i>  Where do I fine more information about LexisNexis Risk Solution? </i> \
-LexiNexis information can be found [here](https://risk.lexisnexis.com/).
+LexisNexis information can be found [here](https://risk.lexisnexis.com/).
 
 </br>
 
 <i>  Where do I fine more information about HPCC Systems? </i> \
-Please refer to [HPCC Systems](https://hpccsystems.com/).
+Please refer to [HPCC Systems](https://hpccsystems.com/) website.
 
 </br>
 
@@ -28,18 +28,18 @@ Please refer to [Connections Homes](https://connectionshomes.org/).
 </br>
 
 <i>  Can I see a Roxie example ? </i> \
-Please see Roxie example and related information in [RoxieSample.md](./Roxie.ecl)
+Please see Roxie example and related information in [roxieSample](./Roxie.ecl)
 
 </br>
 
 <i>  Where do I find Mentors and Youth layout? </i> \
-aRes
+Mentors layout and dataset along with youth layout can be found in [inputRecords](./inputRecords.ecl).
 
 
 </br>
 
 <i>  What does Definition must contain EXPORT or SHARED value error mean? </i> \
-It means your BWR doesn't have an OUTPUT. 
+It means your BWR doesn't have an OUTPUT or if it is a MODULE it doesn't have an EXPORT attribute. 
 
 </br>
 
@@ -48,4 +48,16 @@ No. Modules can have exported values to be called and used outside the modules.
 
 
 <i>  What does result is too big to output error mean? </i> \
+Means that the dataset you are trying to output is bigger than dedicated memory. You can wrap your OUTPUT with CHOOSEN( ) to solve this error.\
+`OUTPUT(CHOOSEN(SampleDS, 150), NAMED('SampleDS));`\
+For more information please refer to [CHOOSEN](https://hpccsystems-solutions-lab.github.io/hpcc/Tutorial/ECLSyntax/choosen). 
+
+<i> Unknown identifier error when creating a record layout?</i>\
+Field names in RECORD should not have spaces or subtraction sign `-`, or start with a numeric value. 
+
+Following names are unacceptable.
+
+![](./images/UknownIdentifire.png)
+
+
 
