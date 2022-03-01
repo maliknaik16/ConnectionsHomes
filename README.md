@@ -79,3 +79,74 @@ Mentor| CriminalHistory| SupportNeeds |  Children | Total_Score |HumanReview
 ---|---|---|---|---|---
 M1 |1| 4| 0 | 5| Children
 
+</b>
+</br>
+
+## Platform Choice 
+
+### Cloud IDE
+Start with creating a login in [CloudIDE](https://ide.hpccsystems.com/).
+User guide is available under Help in CloudIDE, also can be found in this repository.
+
+[ConnectionsHomes_Workshop](https://ide.hpccsystems.com/workspaces/share/287fe2a4-1f9c-4bf4-aa98-fd8e9836a0a8) has the initial record layout and dataset code you need for this challenge. You can also find this code under AdamWorkshop folder in this repository.
+
+### VS Code
+1- [HPCC Platform](https://hpccsystems.com/download#HPCC-Platform) installation guide
+
+2- [VS Code](https://code.visualstudio.com)
+
+3- VS Code [Installation UserGuide](https://github.com/hpccsystems-solutions-lab/ConnectionsHomes/blob/main/vscode_hpcc_install.pdf). Only the first three steps are required
+
+4- Clone the repo in your local machine: 
+     git clone https://github.com/hpccsystems-solutions-lab/ScheduledFlights-Workshop.git
+
+5- Open VS Code
+   - File -> Open Folder
+   - Select ch_Workshop subdirectory within the cloned repo and select/open it
+
+</br>
+
+If you need more information on jobs you are running on either platform, please use [ECL Watch Page](http://40.76.26.67:8010)
+
+</br>
+
+## Quick ECL Learning
+
+For a quick start on ECL syntax and hands-on example, please use [Learn ECL](https://hpccsystems-solutions-lab.github.io/).
+
+
+### Presentation Requirements
+- Solution 
+- How you approached the solution
+- Code snippets 
+- Results
+- Drawing conclusion
+
+
+### Judging Criteria 
+- All work should be done in ECL
+- Presentation materials and skills 
+- How the problem was approached and solved 
+
+### Mentors
+
+**Mentors are available from Monday 03/21 - 03/25 from 9AM - 9PM to answer questions.**
+
+![Arjuna Chala](./images/ArjunaChala.jpg)
+<p>Arjuna Chala, Sir Dir of Operations. Arjuna’s expertise spans software application development for desktop, web, phone and data analytics.</p>
+
+</br>
+
+![Dan Camper](./images/DanCamp.jpg)
+
+<p>Dan Camper, Sir Architect. He's been writing software professionally for more than 35 years and has worked on a myriad of systems, using many different programming languages.</p>
+
+</br>
+
+![Bahar Fardanian](./images/Bahar.png)
+<p>Bahar Fardanian, Technology Evangelist. She is ECL developer and a mentor. Prof at KSU teaching Big Data course.
+
+</br>
+
+### Contact Us
+For any question please contact Bahar: bahareh.fardanian@lexisnexisrisk.com</p>
