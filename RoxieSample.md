@@ -48,12 +48,14 @@ OUTPUT(IF((INTEGER)_Age BETWEEN 10 AND 25, 'Not Eligiable', 'Eligible'), NAMED('
 ```
 
 __Input Interface__
+
 ![RoxieInput](./images/input.png)
 
 </br>
 </br>
 
 __Output Interface__
+
 ![RoxieInput](./images/result.png)
 
 
