@@ -13,10 +13,10 @@ The only criteria that would prevent a youth from being served by our program ar
 Currently Connections Homes uses a manual process to match youth with mentor families. To reduce human error, and evaluation time, Connections Homes is looking for matching program by using a weight system. 
 
 ### Requirements
-- Solution should compare one youth at a time against all mentors
+- Solution should compare one youth at a time against all mentors Solution should compare one youth at a time against all mentors and produce a ranked list of "best mentors" for each youth. 
 - Solution should have an interface to capture youth information. This could be done by creating Roxie query
 - Matches uses 0-5 weight scale, with 0 = no desire and 5 = most interested
-- If a mentor have  0 weight  on a field that mentor is eliminated. For example: if mentor has a 0 on "Gender_Male", then this mentor is no longer an eligible candidate
+- If a mentor have  0 weight  on a field that mentor is eliminated. For example: if mentor has a 0 on "Gender_Male",and the youth is male then this mentor is no longer an eligible candidate
 - Youth and mentors should be within "Distance" miles provided by user
 - If youth has None Available (N/A) values on all fields under a category, then result should be marked as "Human Review"
 - Spouse values should be treated the same as the primary mentor 

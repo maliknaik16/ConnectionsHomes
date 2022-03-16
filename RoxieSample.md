@@ -2,8 +2,6 @@
 # Roxie Sample
 
 You can copy/paste following code into an .ecl file and run it on Roxie cluster.
-Once job 
-
 
 
 
@@ -46,6 +44,21 @@ OUTPUT(SampleDS, NAMED('SampleDS'));
 OUTPUT(_FirstName  + _LastName, NAMED('FullName'));
 OUTPUT(IF((INTEGER)_Age BETWEEN 10 AND 25, 'Not Eligiable', 'Eligible'), NAMED('isEligiable'));
 ```
+
+Make sure that you run this job on `Roxie` cluster. Following shows how to choose Roxie in VS Code which is located on the bottom bar in VS Code.
+
+![](./images/vsRoxie.png)
+
+
+One job is executed open [ECL Watch Page](http://40.76.26.67:8010) and click on your WUID.
+
+![](./images/Watchpage.png)
+
+From WUID tab you can publish your job as a Roxie query.
+
+![](./images/publishRoxie.png)
+
+Open the [Roxie page](http://40.76.26.67:8002) to review and test your job. 
 
 __Input Interface__
 
