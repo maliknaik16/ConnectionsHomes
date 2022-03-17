@@ -48,6 +48,8 @@ OUTPUT(IF((INTEGER)_Age BETWEEN 10 AND 25, 'Not Eligiable', 'Eligible'), NAMED('
 Make sure that you run this job on `Roxie` cluster. 
 Following shows how to choose Roxie in VS Code which is located on the bottom blue bar in VS Code. If ROxie isn't selected click on cluster name and pick Roxie. 
 
+</br>
+
 ![](./images/vsRoxie.png)
 
 </br>
