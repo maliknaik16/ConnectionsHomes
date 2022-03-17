@@ -3,14 +3,14 @@
 [Connections Homes](https://connectionshomes.org/) serves youth 18 – 24 who’ve aged out of foster care or are homeless without family by matching them with a trained and certified Mentoring Family who agrees to be a part of their life, for life, in order to prevent poverty and homelessness and to provide a sense of love and belonging. 
 
 ## Matching Algorithm
-Connections Homes uses a low-barrier model in matching youth who enters the program and desire to have a Mentoring Family. A youth entering the program must only demonstrate a lack of family support system or history in foster care. 
+Connections Homes uses a low-barrier model in matching youth who enter the program and desire to have a Mentoring Family. A youth entering the program must only demonstrate a lack of family support system or history in foster care. 
 
 The only criteria that would prevent a youth from being served by our program are: an active drug addiction, an inability to live independently (severe special needs), or lack of desire for a connection (meaning that someone else referred the youth without their permission or desire.)
 
 <i> Each team can have up to 4 members</i>
 
 ## Challenge Description 
-Currently Connections Homes uses a manual process to match youth with mentor families. To reduce human error, and evaluation time, Connections Homes is looking for matching program by using a weight system. 
+Currently Connections Homes uses a manual process to match youth with mentor families. To reduce human error, and evaluation time, Connections Homes is looking for matching program by using a weighting system. 
 
 ### Requirements
 - Solution should compare one youth at a time against all mentors and produce a ranked list of "best mentors" for each youth. 
@@ -36,7 +36,7 @@ This mentor is eliminated
 
 ### Notes
 - Since lats and longs are based on cities, you might get some distance = 0 in matching, which means mentor and youth are both in the same city
-- To make sure you get the least required information, try to use ERROR to throw a message if <i> Distance, Lat and Long or any other needed input</i>aren't provided
+- To make sure you get the least required information, try to use ERROR to throw a message if <i> Distance, Lat and Long or any other needed input</i> aren't provided
 - Make sure your query name is unique so your won't overwrite other team's queries. Try using a unique name like adding your initial or team  name
 - In ECL Watchpage check the Workunit ID (WUID) number to make sure this is your code in case of having the same query name with another teams  
 - For testing purposes a youth dataset is provided in [data folder](./data/Youth.csv)
@@ -139,7 +139,7 @@ For a quick start on ECL syntax and hands-on example, please use [Learn ECL](htt
 
 ### Mentors
 
-**Mentors are available from Monday 03/21 - 03/25 from 9AM - 9PM to answer questions.**
+**Mentors are available from <u>Monday 03/21 - 03/25 from 9AM - 9PM</u> to answer questions.**
 
 
 ![Dan Camper](./images/DanCamp.jpg)
@@ -148,8 +148,13 @@ For a quick start on ECL syntax and hands-on example, please use [Learn ECL](htt
 
 </br>
 
+![Hugo Watanuki](./images/Hugo.jpg)
+<p>Hugo is a Senior Software Engineer and ECL Instructor for LexisNexis Risk Solutions. Hugo has worked for over 15 years on various technical roles in the IT industry with a focus on High Performance Computing. </p>
+
+</br>
+
 ![Bahar Fardanian](./images/Bahar.png)
-<p>Bahar Fardanian, Technology Evangelist. She is an ECL developer and a mentor. She also has thought a course on Big Data at KSU.
+<p>Bahar Fardanian, Technology Evangelist. She is an ECL developer and a mentor. She was also an instructor on Big Data at KSU.
 
 </br>
 

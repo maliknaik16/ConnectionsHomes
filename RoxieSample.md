@@ -45,10 +45,16 @@ OUTPUT(_FirstName  + _LastName, NAMED('FullName'));
 OUTPUT(IF((INTEGER)_Age BETWEEN 10 AND 25, 'Not Eligiable', 'Eligible'), NAMED('isEligiable'));
 ```
 
-Make sure that you run this job on `Roxie` cluster. Following shows how to choose Roxie in VS Code which is located on the bottom bar in VS Code.
+Make sure that you run this job on `Roxie` cluster. 
+Following shows how to choose Roxie in VS Code which is located on the bottom blue bar in VS Code. If ROxie isn't selected click on cluster name and pick Roxie. 
 
 ![](./images/vsRoxie.png)
 
+</br>
+
+__Note__ Roxie is only used for jobs with user interface. Other jobs should be run using Thor, ot hThor. 
+
+</br>
 
 One job is executed open [ECL Watch Page](http://40.76.26.67:8010) and click on your WUID.
 
