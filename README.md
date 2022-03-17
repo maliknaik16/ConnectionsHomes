@@ -13,10 +13,19 @@ The only criteria that would prevent a youth from being served by our program ar
 Currently Connections Homes uses a manual process to match youth with mentor families. To reduce human error, and evaluation time, Connections Homes is looking for matching program by using a weight system. 
 
 ### Requirements
-- Solution should compare one youth at a time against all mentors Solution should compare one youth at a time against all mentors and produce a ranked list of "best mentors" for each youth. 
+- Solution should compare one youth at a time against all mentors and produce a ranked list of "best mentors" for each youth. 
 - Solution should have an interface to capture youth information. This could be done by creating Roxie query
 - Matches uses 0-5 weight scale, with 0 = no desire and 5 = most interested
-- If a mentor have  0 weight  on a field that mentor is eliminated. For example: if mentor has a 0 on "Gender_Male",and the youth is male then this mentor is no longer an eligible candidate
+- If a mentor has  0 weight of a field that doesn't match youth value, that mentor is eliminated. For example: if mentor has a 0 on "Gender_Male",and the youth is male then this mentor is no longer an eligible candidate
+
+Mentor|Gender_Male|Gender_Female|Gender_Transgender|Gender_Non_binary|
+---|---|---|---|---|
+M30|4|0|0|1
+
+Youth_Gender = Female
+
+This mentor is eliminated
+
 - Youth and mentors should be within "Distance" miles provided by user
 - If youth has None Available (N/A) values on all fields under a category, then result should be marked as "Human Review"
 - Spouse values should be treated the same as the primary mentor 
@@ -27,7 +36,7 @@ Currently Connections Homes uses a manual process to match youth with mentor fam
 
 ### Notes
 - Since lats and longs are based on cities, you might get some distance = 0 in matching, which means mentor and youth are both in the same city
-- To make sure you get the least required information, try to use ERROR to throw a massage if <i> Distance, Lat and Long or any other needed input</i>aren't provided
+- To make sure you get the least required information, try to use ERROR to throw a message if <i> Distance, Lat and Long or any other needed input</i>aren't provided
 - Make sure your query name is unique so your won't overwrite other team's queries. Try using a unique name like adding your initial or team  name
 - In ECL Watchpage check the Workunit ID (WUID) number to make sure this is your code in case of having the same query name with another teams  
 - For testing purposes a youth dataset is provided in [data folder](./data/Youth.csv)
@@ -40,7 +49,7 @@ Currently Connections Homes uses a manual process to match youth with mentor fam
 
 __Example__
 
-Let's say the and these mentors are within 20 miles of each other. 
+Let's say the youth and these mentors are within 20 miles of each other. 
 
 </br>
 </br>
@@ -135,12 +144,12 @@ For a quick start on ECL syntax and hands-on example, please use [Learn ECL](htt
 
 ![Dan Camper](./images/DanCamp.jpg)
 
-<p>Dan Camper, Sir Architect. He's been writing software professionally for more than 35 years and has worked on a myriad of systems, using many different programming languages.</p>
+<p>Dan Camper, Enterprise Architect. He's been writing software professionally for more than 35 years and has worked on myriad of systems, using many different programming languages.</p>
 
 </br>
 
 ![Bahar Fardanian](./images/Bahar.png)
-<p>Bahar Fardanian, Technology Evangelist. She is ECL developer and a mentor. Prof at KSU teaching Big Data course.
+<p>Bahar Fardanian, Technology Evangelist. She is an ECL developer and a mentor. She also has thought a course on Big Data at KSU.
 
 </br>
 
