@@ -58,7 +58,7 @@ __Note__ Roxie is only used for jobs with user interface. Other jobs should be r
 
 </br>
 
-One job is executed open [ECL Watch Page](http://40.76.26.67:8010) and click on your WUID.
+One job is executed open [ECL Watch Page](http://52.167.137.162:8010) and click on your WUID.
 
 ![](./images/Watchpage.png)
 
@@ -66,7 +66,7 @@ From WUID tab you can publish your job as a Roxie query.
 
 ![](./images/publishRoxie.png)
 
-Open the [Roxie page](http://40.76.26.67:8002) to review and test your job. 
+Open the [Roxie page](http://52.167.137.162:8002) to review and test your job. 
 
 __Input Interface__
 
