@@ -112,7 +112,7 @@ User guide is available under Help in CloudIDE
 
 </br>
 
-If you need more information on jobs you are running on either platform, please use [ECL Watch Page](http://40.76.26.67:8010)
+If you need more information on jobs you are running on either platform, please use [ECL Watch Page](http://52.167.137.162:8010)
 
 </br>
 
