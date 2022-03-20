@@ -7,7 +7,7 @@ Connections Homes uses a low-barrier model in matching youth who enter the progr
 
 The only criteria that would prevent a youth from being served by our program are: an active drug addiction, an inability to live independently (severe special needs), or lack of desire for a connection (meaning that someone else referred the youth without their permission or desire.)
 
-<i> Each team can have up to 4 members</i>
+<i> Each team can have up to 3 members</i>
 
 ## Challenge Description 
 Currently Connections Homes uses a manual process to match youth with mentor families. To reduce human error, and evaluation time, Connections Homes is looking for matching program by using a weighting system. 
@@ -130,7 +130,7 @@ For a quick start on ECL syntax and hands-on example, please use [Learn ECL](htt
 
 
 ### Judging Criteria 
-- Each team can have up to 4 members
+- Each team can have up to 3 members
 - All work should be done in ECL
 - Presentation materials and skills 
 - How the problem was approached and solved 
